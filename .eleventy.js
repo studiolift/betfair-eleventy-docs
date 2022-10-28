@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
   // Passthroughs
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
 
   // Shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
