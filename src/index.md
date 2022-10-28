@@ -1,13 +1,13 @@
 ---
 layout: page.njk
 title: Home
-date: 2021-10-12
+date: 2022-10-28T16:01:38.736Z
 eleventyNavigation:
   key: Home
   order: 1
 ---
 
-### An important note on publishing
+## An important note on publishing
 
 Updating articles is a straight-forward process, simply using the 'update' or 'publish' buttons should be enough when editing or creating an entry. When changing other aspects of the site you might be prompted to republish the site using the below dialogue box.
 
