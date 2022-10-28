@@ -1,0 +1,12 @@
+.site_footer {
+
+  ul {
+    font-size: 0.875rem;
+    padding-top: 1rem;
+    border-top: 1px solid $theme-color;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+}

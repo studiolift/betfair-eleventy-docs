@@ -1,0 +1,9 @@
+<a href="{{ post.url }}" class="card" style="background-image: url('{{ post.data.image }}');">
+  <figure class="card__image">
+    <img src="{{ post.data.image }}" alt="">
+  </figure>
+  <div class="card__text">
+    <time>{{ post.date | postDate }}</time>
+    <h2>{{ post.data.title }}</h2>
+  </div>
+</a>

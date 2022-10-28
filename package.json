@@ -1,0 +1,32 @@
+{
+  "name": "Betfair Docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiolift/betfair-eleventy-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studiolift/betfair-eleventy-docs/issues"
+  },
+  "homepage": "https://github.com/studiolift/betfair-eleventy-docs#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-fetch": "^3.0.0",
+    "eleventy-sass": "^2.1.0",
+    "markdown-it-attrs": "^4.1.4",
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.3.3"
+  }
+}
