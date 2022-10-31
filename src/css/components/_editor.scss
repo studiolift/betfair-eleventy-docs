@@ -1,4 +1,11 @@
-.editor {
+.frame-content {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.editor,
+.frame-content {
 
   h2 {
     border-top: 2px solid $mid-grey;
