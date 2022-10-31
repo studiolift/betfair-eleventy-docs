@@ -23,6 +23,7 @@
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-fetch": "^3.0.0",
     "eleventy-sass": "^2.1.0",
+    "js-yaml": "^4.1.0",
     "markdown-it-attrs": "^4.1.4",
     "sass": "^1.54.0"
   },

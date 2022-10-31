@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
+const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 
@@ -22,6 +23,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_SHORT);
   });
+
+  // Yaml Data
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   const markdownItOptions = {
     html: true,

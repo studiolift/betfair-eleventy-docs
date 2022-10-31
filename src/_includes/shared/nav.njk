@@ -1,17 +1,18 @@
 <div class="navigation">
   <h2>Guides</h2>
-  {% set navPages = collections.all | eleventyNavigation %}
-  {% macro renderNavListItem(entry) -%}
-  <li class="nav-item {% if entry.url == page.url %} nav-item--active {% endif %}">
-    <a href="{{ entry.url }}">{{ entry.title }}</a>
-    {%- if entry.children.length -%}
-      <ul class="sub_navigation">
-        {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-      </ul>
-    {%- endif -%}
-  </li>
-  {%- endmacro %}
   <ul>
-  {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+    {%- for item in nav.items -%}
+      <li class="nav-item {% if item.url == page.url %} nav-item--active {% endif %}">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        <ul class="sub_navigation">
+          {%- for sub in item.subnav -%}
+            <li class="nav-item {% if sub.url == page.url %} nav-item--active {% endif %}">
+              <a href="{{ sub.url }}">{{ sub.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </li>
+    {%- endfor -%}
   </ul>
 </div>
+

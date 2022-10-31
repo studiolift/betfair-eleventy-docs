@@ -1,0 +1,41 @@
+items:
+  - title: Home
+    url: /
+  - title: Structure
+    url: /structure/
+  - title: Updating the Services nav
+    url: /updating-the-services-nav/
+  - title: Updating the Sports Nav
+    url: /updating-the-sports-nav/
+  - title: Updating the Features nav
+    url: /updating-the-features-nav/
+  - title: Updating UI text
+    url: /updating-ui-text/
+  - title: Example UI text
+    url: /example-ui-text/
+  - title: Templates
+    url: /templates/
+    subnav:
+      - title: Homepage
+        url: /templates/homepage/
+  - title: Widgets
+    url: /widgets/
+    subnav:
+      - title: Homepage widget areas
+        url: /widgets/homepage-widget-areas/
+      - title: Blog widget areas
+        url: /widgets/blog-widget-areas/
+      - title: Category page widget areas
+        url: /widgets/category-widget-areas/
+      - title: Entry page widget areas
+        url: /widgets/entry-widget-areas/
+  - title: Creating and editing an entry
+    url: /creating-and-editing-articles/
+  - title: Shortcodes
+    url: /shortcodes/
+  - title: Quizes
+    url: /creating-quizes/
+  - title: Podcasts
+    url: /podcasts/
+  - title: Football Hubs
+    url: /creating-football-hub/
